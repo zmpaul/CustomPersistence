@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <properties>
+    <property name="driver" value="org.postgresql.Driver" />
+    <property name="url" value="jdbc:postgresql://124.70.79.63:5432/mybatis"/>
+    <property name="username" value="postgres"/>
+    <property name="password" value="postgres"/>
+  </properties>
+
+  <mappers>
+    <mapper resource="UserMapper.xml"/>
+  </mappers>
+</configuration>
